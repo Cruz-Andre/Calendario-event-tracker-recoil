@@ -21,7 +21,7 @@ Você pode interagir com essa aplicação e dizer que um evento foi completado, 
 <img src="screenshot.png" alt="Imagem do curso" width="50%">
 
 
-## 🔨 Funcionalidades do projeto
+## 🔨 A saber sobre o projeto
 
 O gerenciamento de estado dele está direto no “app.tsx” com um monte de prop drilling.
 O que podemos fazer e como o Recoil pode nos ajudar a atingir um bom resultado.
