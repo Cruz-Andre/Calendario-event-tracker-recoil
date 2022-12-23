@@ -14,11 +14,11 @@
  
 
 # Calendário
-calendário responsável por adicionar e remover eventos à ele. 
+Calendário responsável por adicionar e remover eventos à ele. <br>
 Você pode interagir com essa aplicação e dizer que um evento foi completado, você pode deletar um evento do calendário, você pode mover um evento no draggling drop e mudar o horário e o dia dele, quando ele vai acontecer.
 
 
-<img src="screenshot.png" alt="Imagem do curso" width="50%">
+<img src="screenshot.png" alt="Imagem do curso">
 
 
 ## 🔨 A saber sobre o projeto
@@ -28,7 +28,7 @@ O que podemos fazer e como o Recoil pode nos ajudar a atingir um bom resultado.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-Se liga nessa lista de tudo que usaremos nesse treinamento:
+Se liga nessa lista de tudo que foi usado nesse treinamento:
 
 - `React`
 - `React Hooks`
