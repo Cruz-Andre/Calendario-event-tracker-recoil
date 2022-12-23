@@ -2,7 +2,8 @@
 
 ### Aula 1:
 - Entendendo o projeto :white_check_mark: 
-- Criando eventos com Hooks 
+- Criando o atom (Átomos são as porções que compõem o estado compartilhado do recoil.):white_check_mark:
+- Criando eventos com Hooks do Recoil :white_check_mark:
 ### Aula 2:
 - 
 ### Aula 3:
