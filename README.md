@@ -5,9 +5,9 @@
 - Criando o atom (Átomos são as porções que compõem o estado compartilhado do recoil.):white_check_mark:
 - Criando eventos com Hooks do Recoil :white_check_mark:
 ### Aula 2:
-- Deletando e Atualizando eventos
-- Corrigindo bug
-- Refatorando código duplicado (com hook personalizado)
+- Deletando e Atualizando eventos :white_check_mark:
+- Corrigindo bug :white_check_mark:
+- Refatorando código duplicado (com hook personalizado) :white_check_mark:
 ### Aula 3:
 - 
 ### Aula 4: 
