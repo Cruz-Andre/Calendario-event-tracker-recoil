@@ -5,6 +5,8 @@ import Calendario from './components/Calendario';
 import ListaDeEventos from './components/ListaDeEventos';
 //Dentro da minha aplicação, qualquer componente que precise ter acesso ao Recoil, ele tem que ser um componente que descenda do Recoil Root, que é um componente que a Recoil entrega para nós.
 import { RecoilRoot } from 'recoil'
+import { Suspense } from 'react';
+import DebugObserver from './components/DebugObserver';
 
 function App() {
 
@@ -29,17 +31,17 @@ function App() {
   //const [filtro, setFiltro] = useState<Date | null>()
 
   //const adicionarEvento = (evento: IEvento) => {
-    //evento.id = Math.round((new Date()).getTime() / 1000)
-    // eventos.push(evento)
-    // console.log(eventos);
-    // setEventos([...eventos])
- //}
+  //evento.id = Math.round((new Date()).getTime() / 1000)
+  // eventos.push(evento)
+  // console.log(eventos);
+  // setEventos([...eventos])
+  //}
   //const alterarStatusEvento = (id: number) => {
-    // const evento = eventos.find(evento => evento.id === id)
-    // if (evento) {
-    //   evento.completo = !evento.completo
-    // }
-    // setEventos([...eventos])
+  // const evento = eventos.find(evento => evento.id === id)
+  // if (evento) {
+  //   evento.completo = !evento.completo
+  // }
+  // setEventos([...eventos])
   //}
 
   // const deletarEvento = (id: number) => {
@@ -58,21 +60,24 @@ function App() {
 
   return (
     // O que isso quer dizer? A partir de agora, qualquer componente pode ter acesso a qualquer coisa que fizermos dentro do Recoil. E vamos começar a migrar esse estado.
-     <RecoilRoot>
-      <div className={style.App}>
-        <div className={style.Coluna}>
-          <Card>
-            <Formulario />
-          </Card>
-          <hr />
-          <Card>
-            <ListaDeEventos />
-          </Card>
-        </div>
-        <div className={style.Coluna}>
-          <Calendario  />
-        </div>
-      </div>
+    <RecoilRoot>
+      <DebugObserver />
+        <Suspense fallback="Está carregando">
+          <div className={style.App}>
+            <div className={style.Coluna}>
+              <Card>
+                <Formulario />
+              </Card>
+              <hr />
+              <Card>
+                <ListaDeEventos />
+              </Card>
+            </div>
+            <div className={style.Coluna}>
+              <Calendario />
+            </div>
+          </div>
+        </Suspense>
     </RecoilRoot>
   );
 }
