@@ -13,7 +13,8 @@
 - Desafio: colocar as exclusões em um hook personalisado :white_check_mark:
 - Lista de eventos via hook :white_check_mark:
 ### Aula 4: 
-- 
+- Derivar estados com seletores (Mantendo assim a responsabilidade bem definida para cada parte do sistema) :white_check_mark:
+- Adicionar funcionalidades de forma incremental (Primeiro, colocamos o filtro para funcionar. Na sequência, melhoramos a implementação e extraímos a lógica) :white_check_mark:
 ### Aula 5:
 - 
  
