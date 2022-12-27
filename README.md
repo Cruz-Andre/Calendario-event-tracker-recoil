@@ -9,7 +9,9 @@
 - Corrigindo bug :white_check_mark:
 - Refatorando código duplicado (com hook personalizado) :white_check_mark:
 ### Aula 3:
-- 
+- Encapsulando a adição de eventos :white_check_mark:
+- Desafio: colocar as exclusões em um hook personalisado :white_check_mark:
+- Lista de eventos via hook :white_check_mark:
 ### Aula 4: 
 - 
 ### Aula 5:
