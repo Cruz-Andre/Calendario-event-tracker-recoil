@@ -16,12 +16,12 @@
 - Derivar estados com seletores (Mantendo assim a responsabilidade bem definida para cada parte do sistema) :white_check_mark:
 - Adicionar funcionalidades de forma incremental (Primeiro, colocamos o filtro para funcionar. Na sequência, melhoramos a implementação e extraímos a lógica) :white_check_mark:
 ### Aula 5:
-1. Criar seletores assíncronos 
-  - Integrando assim o recoil com uma API REST.
-2. Definir um valor inicial dinâmico para o átomo
-  - Ao definir o seletor async como valor padrão para o átomo, todos os eventos iniciais passam a vir da API.
-3. Criar uma ferramenta de depuração
-  - Agora fica mais simples de entender as mudanças no estado, uma vez que implementamos um componente que faz log cada vez que o estado é manipulado.
+1. Criar seletores assíncronos :white_check_mark:
+    - Integrando assim o recoil com uma API REST.
+2. Definir um valor inicial dinâmico para o átomo :white_check_mark:
+    - Ao definir o seletor async como valor padrão para o átomo, todos os eventos iniciais passam a vir da API.
+3. Criar uma ferramenta de depuração :white_check_mark:
+    - Agora fica mais simples de entender as mudanças no estado, uma vez que implementamos um componente que faz log cada vez que o estado é manipulado.
  
 
 # Calendário
